@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\AboutController;
+use App\Http\Controllers\ContactUsController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\UserCategoryController;
@@ -31,6 +33,8 @@ Route::get('/', [DashboardController::class, 'index'])
         ->name('dashboard_admin');
         Route::resource('/product', ProductController::class);
         Route::resource('/category', CategoryController::class);
+        Route::get('/about', AboutController::class);
+        Route::get('/contact', ContactUsController::class);
 });
 
 

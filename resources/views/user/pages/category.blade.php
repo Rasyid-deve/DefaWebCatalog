@@ -15,7 +15,7 @@
 	<!-- meta character set -->
 	<meta charset="UTF-8">
 	<!-- Site Title -->
-	<title>Karma Shop</title>
+	<title>Defa Elektrik</title>
 
 	<!--
             CSS
@@ -89,7 +89,7 @@
 		<div class="container">
 			<div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
 				<div class="col-first">
-					<h1>Shop Category page</h1>
+					<h1>Halaman Kategori</h1>
 					<nav class="d-flex align-items-center">
 						<a href="index.html">Home<span class="lnr lnr-arrow-right"></span></a>
 						<a href="#">Shop<span class="lnr lnr-arrow-right"></span></a>
@@ -104,7 +104,7 @@
 		<div class="row">
 			<div class="col-xl-3 col-lg-4 col-md-5">
 				<div class="sidebar-categories">
-					<div class="head">Browse Categories</div>
+					<div class="head">Cari</div>
 					<ul class="main-categories">
 						@foreach ($category as $categorys)
 						<li class="main-nav-list"><a href="" aria-expanded="false" aria-controls="fruitsVegetable"><span
